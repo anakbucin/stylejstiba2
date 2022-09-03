@@ -18,13 +18,13 @@ function mulaiketik1(){
   vketik10=kalimatj.innerHTML;kalimatj.innerHTML = "";
   
   function gantikalimat2(){setTimeout(anim,100);kalimat.innerHTML = "";kalimatb.innerHTML=vketik2;setTimeout(befanim,1800);setTimeout(gantikalimat3,2100);}
-  function gantikalimat3(){fthilang();ftganti=1;setTimeout(ftmuncul,300);setTimeout(anim,100);kalimatb.innerHTML = "";kalimatc.innerHTML=vketik3;inikuis=1;setTimeout(tombol,700);}
-  function gantikalimat4(){fthilang();ftganti=2;setTimeout(ftmuncul,300);setTimeout(anim,100);kalimatc.innerHTML = "";kalimatd.innerHTML=vketik4;setTimeout(befanim,2300);setTimeout(gantikalimat5,2600);}
-  function gantikalimat5(){fthilang();ftganti=1;setTimeout(ftmuncul,300);setTimeout(anim,100);kalimatd.innerHTML = "";kalimate.innerHTML=vketik5;document.querySelector(".kolomrange").style="display:flex";inikuis=2;setTimeout(tombol,700);}
-  function gantikalimat6(){fthilang();ftganti=2;setTimeout(ftmuncul,300);setTimeout(anim,100);kalimate.innerHTML = "";kalimatf.innerHTML=vketik6 + rangeval.textContent + "! &#10084;";inikuis=3;tombol();}
-  function gantikalimat7(){fthilang();ftganti=1;setTimeout(ftmuncul,300);setTimeout(anim,100);kalimatf.innerHTML = "";kalimatg.innerHTML=vketik7;inikuis=4;setTimeout(tombol,700);}
-  function gantikalimat8(){fthilang();ftganti=2;setTimeout(ftmuncul,300);setTimeout(anim,100);kalimatg.innerHTML = "";kalimath.innerHTML=vketik8;setTimeout(befanim,2000);setTimeout(gantikalimat9,2300);}
-  function gantikalimat9(){fthilang();ftganti=1;setTimeout(ftmuncul,300);setTimeout(anim,100);kalimath.innerHTML = "";kalimati.innerHTML=vketik9;mulaict();}
+  function gantikalimat3(){fthilang();ftganti=1;setTimeout(ftmuncul,350);setTimeout(anim,100);kalimatb.innerHTML = "";kalimatc.innerHTML=vketik3;inikuis=1;setTimeout(tombol,700);}
+  function gantikalimat4(){fthilang();ftganti=2;setTimeout(ftmuncul,350);setTimeout(anim,100);kalimatc.innerHTML = "";kalimatd.innerHTML=vketik4;setTimeout(befanim,2300);setTimeout(gantikalimat5,2600);}
+  function gantikalimat5(){fthilang();ftganti=1;setTimeout(ftmuncul,350);setTimeout(anim,100);kalimatd.innerHTML = "";kalimate.innerHTML=vketik5;document.querySelector(".kolomrange").style="display:flex";inikuis=2;setTimeout(tombol,700);}
+  function gantikalimat6(){fthilang();ftganti=2;setTimeout(ftmuncul,350);setTimeout(anim,100);kalimate.innerHTML = "";kalimatf.innerHTML=vketik6 + rangeval.textContent + "! &#10084;";inikuis=3;tombol();}
+  function gantikalimat7(){fthilang();ftganti=1;setTimeout(ftmuncul,350);setTimeout(anim,100);kalimatf.innerHTML = "";kalimatg.innerHTML=vketik7;inikuis=4;setTimeout(tombol,700);}
+  function gantikalimat8(){fthilang();ftganti=2;setTimeout(ftmuncul,350);setTimeout(anim,100);kalimatg.innerHTML = "";kalimath.innerHTML=vketik8;setTimeout(befanim,2000);setTimeout(gantikalimat9,2300);}
+  function gantikalimat9(){fthilang();ftganti=1;setTimeout(ftmuncul,350);setTimeout(anim,100);kalimath.innerHTML = "";kalimati.innerHTML=vketik9;mulaict();}
   function gantikalimat10(){fthilang();ftganti=0;ftfungsi=1;setTimeout(ftmuncul,300);setTimeout(anim,100);kalimati.innerHTML = "";kalimatj.innerHTML=vketik10;}
   
   function befanim(){
@@ -81,7 +81,7 @@ function mulaiketik1(){
       fthilang();ftganti=3;setTimeout(ftmuncul,300);
   	halo.innerHTML="";halo.style="font-family:var(--gaya-font2);font-size:25px !important;";
       mulaiketikakhir();
-      pesanwhatsapp = "Hai, Aku sayang sama kamu " + rangeval.textContent + ". %0A%0A" + "Aku juga kangen banget sama kamu ><";
+      pesanwhatsapp = "Hai Mumu, Bubu sayang sama Mumu " + rangeval.textContent + ". %0A%0A" + "Bubu juga kangen banget sama Mumu ><";
       ftfungsi=0;
       }
   }
