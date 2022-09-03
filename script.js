@@ -2,7 +2,7 @@ vketik1=kalimat.innerHTML;kalimat.innerHTML = "";var aa=0,vketik1;
 function mulaiketik1(){
   if(aa<vketik1.length){
     kalimat.innerHTML += vketik1.charAt(aa);aa++;
-    setTimeout(mulaiketik1,100);
+    setTimeout(mulaiketik1,20000);
   }
   if(aa==vketik1.length){setTimeout(befanim,1500);setTimeout(gantikalimat2,1800);}
 }
@@ -53,7 +53,7 @@ function mulaiketik1(){
   }
   
   async function ditolak(){
-  	Tombol.style="transition:all .3s ease;opacity:0";await swalst.fire({title: '' + kataditolak.innerHTML, timer: 2000, imageUrl: '' + stikerditolak.src,});tombol();
+  	Tombol.style="transition:all .3s ease;opacity:0";await swalst.fire({title: '' + kataditolak.innerHTML, timer: 2500, imageUrl: '' + stikerditolak.src,});tombol();
    }
    
    function mulaict(){
@@ -81,7 +81,7 @@ function mulaiketik1(){
       fthilang();ftganti=3;setTimeout(ftmuncul,300);
   	halo.innerHTML="";halo.style="font-family:var(--gaya-font2);font-size:25px !important;";
       mulaiketikakhir();
-      pesanwhatsapp = "Hai Mumu, Bubu sayang sama Mumu " + rangeval.textContent + ". %0A%0A" + "Bubu juga kangen banget sama Mumu ><";
+      pesanwhatsapp = "Hai Bubu, Mumu sayang sama Bubu " + rangeval.textContent + ". %0A%0A" + "Mumu juga kangen banget sama Bubu ><";
       ftfungsi=0;
       }
   }
